@@ -1,11 +1,11 @@
-package com.example;
+package net.crockeo;
 
 import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
-public interface ExampleConfig extends Config
+@ConfigGroup("yolo-training-data")
+public interface YoloTrainingDataConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
